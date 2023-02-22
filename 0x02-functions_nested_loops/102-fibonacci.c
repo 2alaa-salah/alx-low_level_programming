@@ -14,7 +14,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		fib = x + y;
-		printf("%lu", fib)
+		printf("%lu", fib);
 		x = y;
 		y = fib;
 		if (i == 49)
