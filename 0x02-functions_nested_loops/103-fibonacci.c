@@ -10,7 +10,7 @@ int main(void)
 {
 	unsigned long x = 0, y = 1, fib = 0, even = 0;
 
-	while (fib != 4000000)
+	while (fib >= 4000000)
 	{
 		fib = x + y;
 		x = y;
