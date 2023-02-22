@@ -8,21 +8,23 @@
  */
 int main(void)
 {
-	int x = 1, y = 2, fib, i;
+	unsigned long x = 0, y = 1, fib;
+	int i;
 
-	printf("%d, %d,", x, y);
 	for (i = 0; i < 50; i++)
 	{
 		fib = x + y;
+		printf("%lu", fib)
 		x = y;
 		y = fib;
 		if (i == 49)
 		{
-			printf(" %d", fib);
+			printf("\n");
 		}
 		else
 		{
-			printf(" %d,", fib);
+			printf(", ");
 		}
 	}
+	return (0);
 }
