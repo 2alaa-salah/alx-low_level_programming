@@ -9,7 +9,6 @@
 int main(void)
 {
 	unsigned long x = 0, y = 1, fib = 0, even = 0;
-	int i;
 
 	while (fib != 4000000)
 	{
@@ -21,6 +20,6 @@ int main(void)
 			even += fib;
 		}
 	}
-	printf("&lu\n", even);
+	printf("%lu\n", even);
 	return (0);
 }
