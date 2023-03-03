@@ -2,8 +2,6 @@
 
 /**
  * _strcat - concatenates two strings.
- * @i: integer.
- * @j: integer.
  * @dest: string.
  * @src: string.
  * Return: a pointer to the resulting string dest.
