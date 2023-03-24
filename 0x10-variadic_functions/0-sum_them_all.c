@@ -1,7 +1,11 @@
 #include<stdio.h>
 #include<stdarg.h>
 #include"variadic_functions.h"
-
+/**
+ * sum_them_all - sum of variadic variable
+ * @n:const
+ * Return:int
+ */
 int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
